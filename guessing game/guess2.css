@@ -1,0 +1,84 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serrif;
+    box-sizing: border-box;
+    max-width: 620px;
+}
+html{
+    background: linear-gradient(to right rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: rgba(192, 147, 1, 0.2);
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    box-shadow: 5px 3px 3px #494848ee;
+}
+div form input{
+    width: 100%;
+    margin: 5px;
+    height: 40px;
+    background-color: #eeee;
+    border-radius: 10px;
+    font-size: 25px;
+}
+div form #btn{
+    background-color: rgb(157, 212, 212);
+    font-size: 25px;
+}
+div form #btn:hover{
+    background-color: rgb(241, 187, 121);
+    transition: 2s ease-in-out;
+}
+body div h2{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(24, 21, 21);
+    text-transform: uppercase;
+}
+.error{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(230, 183, 183);
+    margin: 40px;
+    width: 70%;
+    display: none;
+    
+}
+.success{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(100, 218, 145);
+    margin: 40px;
+    width: 70%;
+    display: none;
+    
+}
+.history{
+    text-align: center;
+    font-size: 25px;
+    color: #494848ee;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(106, 107, 106, 0.89);
+    margin:5px 40px 5px 40px;
+    width: 70%;
+    display: none;
+    
+}
+#reset:hover{
+    color: #fff;
+    background-color: rgb(46, 43, 43);
+    transition: 2s ease-in-out;
+}

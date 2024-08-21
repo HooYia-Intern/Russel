@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess game</title>
+    <link rel="stylesheet" href="guess2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>
+            guess the number between 1-100
+        </h2>
+        <form>
+            <div>
+            <input type="number" id="display">
+            </div>
+            <input type="button" name="guess" value="guess" onclick="check2()" id="btn">
+
+            <input type="button" name="reset" value="reset" onclick="replay()" id="reset">
+        </form>
+    </div>
+    <p class="error"> </p>
+    <p class="success"> </p>
+    <p class="history"> </p>
+
+    <script src="guess2.js"></script>
+</body>
+</html>
